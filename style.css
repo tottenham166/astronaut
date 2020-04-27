@@ -1,0 +1,140 @@
+{margin:0;padding:0}
+
+
+/* Calling Fonts */
+
+@font-face{
+	
+	font-family:'PT_Serif-Caption-Web-Regular';
+	
+	src: url('font/PT_Serif-Caption-Web-Regular.eot') format('eot'),
+	url('font/PT_Serif-Caption-Web-Regular.woff') format('woff'),
+	url('font/PT_Serif-Caption-Web-Regular.ttf') format('truetype'),
+	url('font/PT_Serif-Caption-Web-Regular.svg') format('svg'); 
+	}
+
+/* Calling Fonts */
+
+
+
+	
+	a{
+		
+		text-decoration:none;
+		padding:1px 10px;
+		
+	}
+	body{
+		font-family:PT_Serif-Caption-Web-Regular;
+	}
+	
+	
+		p{
+		
+		font-family:arial;
+		font-size:14px;
+		text-align:justify;
+	}
+	
+	
+	.menu ul li a{ color:#efefef;}
+	
+	.menu ul li a:hover{ color:#007bff;}
+	
+	.menu ul li .current{color:#007bff;}
+	
+	
+	
+	.fix{ overflow:hidden;}
+	
+	
+	.container{ max-width:1000px;}
+	
+	.one{ 
+	background:url(images/bg-header.png);
+	
+	}
+	
+	.lower_head{ 
+	min-height:450px;
+	
+	background:url(images/bg-adbox.jpg) no-repeat;
+	background-size:100% 100%;
+	}
+	
+	.lower_img{
+		background:url(images/adbox-bg-heading.jpg) repeat-x;
+		color:#484b4b;
+	}
+	.lower_img h2{
+		color:#484b4b;
+	}
+	
+	.space h1{ color:#addcfe;}
+	
+	.space{
+		background:url(images/spacecraft.jpg) no-repeat;
+	}
+	
+	.space a{ background:url(images/interface.png) no-repeat;
+	height:35px;border-radius:8px;
+	background-position: 0 -58px;}
+	
+	
+	.lower_cont{
+		
+		background:url(images/bg-body.jpg) no-repeat;
+		background-size:100% 100%;
+	}
+	
+	
+	.section{ background:#e8eff4;}
+	.section h5 a{ color:black; text-decoration:none;}
+	.section h5 a:hover { color:teal; text-decoration:none;}
+	
+	
+	.foot{ background:url(images/bg-footer.jpg) no-repeat;background-size:100% 100%;}
+	
+	.foot a{display:block;font-size:12px; border-bottom:1px solid grey; line-height:35px; color: #7890a1}
+	
+	.foot h5{font-size:14px;}
+	
+	.foot p{font-size:13px; color:#7890a1;}
+	
+	.news input[type='email']{
+		
+		background:url(images/interface.png) no-repeat;
+		background-position:0 bottom;
+		border:0; margin:0; padding-left:7px;height: 39px;
+		border-radius:8px 14px 8px 8px;
+		
+	}
+	
+	
+	
+	
+	/* Contact page */
+	
+	.contact{
+		background:url(images/bg-body.jpg) repeat;
+	}
+	.shadow{ background:url(images/bg-content.png) no-repeat; background-position:center top;}
+	
+		/* Gallery page */
+	
+	.thumbnails{ background:#072a3e; max-width:703px; margin-left: 15px;}
+	.thumbnails img{ padding-left:5px;padding-right:5px;}
+	
+	.pagination li a{ color:azure;}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
